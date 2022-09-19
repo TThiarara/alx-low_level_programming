@@ -1,6 +1,6 @@
 #include "main.h"
 /*
- * reset-updates value
+ * reset_to_98 - updates value
  * @n - value updated
  * return - void
  */

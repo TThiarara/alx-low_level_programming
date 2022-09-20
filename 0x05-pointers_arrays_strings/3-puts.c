@@ -1,18 +1,18 @@
 #include "main.h"
 
-/*
- * _puts - prints string
- * @str: string printed
+/**
+ * _puts - Prints a string.
+ * @str: Variable string.
  *
- * return: void always
+ * Return: Always void.
  */
-
 void _puts(char *str)
 {
-	while(*str !='\0')
+
+	while (*str != '\0')
 	{
-		_putchar(*str)
-		str++
+		_putchar(*str);
+		str++;
 	}
 	_putchar(10);
 }

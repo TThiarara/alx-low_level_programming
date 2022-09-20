@@ -1,16 +1,16 @@
 #include "main.h"
 
 /**
- * puts2 -prints string
- * @str: string
+ * puts2 - Prints a string.
+ * @str: Variable string.
  *
- * return: void
+ * Return: Always void.
  */
 void puts2(char *str)
-
 {
 	int len, n;
 	char ch, *count;
+
 	len = 0;
 	count = str;
 	while (*count != '\0')
@@ -26,4 +26,5 @@ void puts2(char *str)
 			_putchar(ch);
 		}
 	}
+	_putchar(10);
 }

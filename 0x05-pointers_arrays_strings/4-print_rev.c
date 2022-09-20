@@ -1,15 +1,17 @@
 #include "main.h"
 
-/*
- * print_rev - prints
- * @s: string
+/**
+ * print_rev - Prints a string in reverse.
+ * @s: Variable string.
  *
- * return - ni pesa anataka
+ * Return: Always void.
  */
 void print_rev(char *s)
 {
 	char *p;
+
 	p = s;
+
 	while (*s != '\0')
 	{
 		s++;

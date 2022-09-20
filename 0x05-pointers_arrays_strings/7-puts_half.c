@@ -3,12 +3,12 @@
 /**
  * puts_half - Prints a string.
  * @str: Variable string.
- * Return: void
+ *
+ * Return: Always void.
  */
-
 void puts_half(char *str)
 {
-	int len = 0,n;
+	int len = 0, n;
 
 	while (str[len] != '\0')
 	{
